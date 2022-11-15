@@ -1,0 +1,21 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* general rules START*/
+body{
+    background-image: url(../img/discordbackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+main{
+    display: flex;
+}
+
+section{
+    
+}
