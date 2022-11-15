@@ -20,6 +20,11 @@ body{
     align-items: center;
     justify-content: center;
 }
+.container-flex2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
 
 /* BUTTONS START */
 .small-button{
@@ -37,11 +42,12 @@ body{
     color: white;
     margin: 0 0 0 20px;
 }
+
 .B-black{
     background-color: black;
     color: white;
-
 }
+
 .big-button{
     border-radius: 25px;
     padding: 14px 20px;
@@ -88,13 +94,13 @@ ul.container-flex{
 /* HEADER END */
 
 /* MAIN START */
-/* SECTION 1 */
+/*  JUMBO START */
 .jumbo{
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 620px;
+    min-height: 600px; 
 }
 
 .section-1{
@@ -106,18 +112,42 @@ ul.container-flex{
 .section-1 > h1,
 .section-1 > p{
     color: white;
-    margin-bottom: 40px;
+    margin: 40px;
 }
 
 h1{
     font-size: 50px;
 }
+/*  JUMBO END */
 
-/* SECTION 2 */
-.container-flex2{
-    display: flex;
-    align-items: center;
+/* SECTION 2 START*/
+.debug .section-2-background{
+    min-height: 600px;
 }
+
+.section-image{
+    min-width: 60%;
+    height: 400px;
+}
+
+
+aside{
+    min-width: 40%;
+    min-height: 400px;
+    flex-direction: column;
+}
+
+aside h2{
+    max-width: 70%;
+    font-size: 40px;
+    padding: 30px 0;
+}
+
+aside p{
+    max-width: 70%;
+}
+
+/* SECTION 2 END */
 
 /* SECTION 3 */
 .section-3{
@@ -151,56 +181,9 @@ hr{
 
 /* DEBUG */
 
-
-/* HEADER START */
-
-
-
-
-/* HEADER END */
-
 /* MAIN START */
-/* SECTION 1 */
-.debug 
-
 
 /* SECTION 2 */
-.debug .section-2-background{
-    min-height: 400px;
-    background-color: greenyellow;
-}
-
-.debug .section-2{
-    background-color: cyan;
-    min-width: 60%;
-    min-height: 340px;
-    border: 1px dashed black;
-}
-.debug aside{
-    background-color: lightpink;
-    min-width: 40%;
-    min-height: 340px;
-    border: 1px dashed black;
-}
-
-/* SECTION 2 FLIPPED */
-.debug .section-2-flipped-background{
-    min-height: 400px;
-    background-color: gray;
-}
-
-.debug .section-2-flipped{
-    background-color: cyan;
-    min-width: 40%;
-    min-height: 340px;
-    border: 1px dashed black;
-}
-.debug .section-2-flipped-background aside{
-    background-color: lightpink;
-    min-width: 60%;
-    min-height: 340px;
-    border: 1px dashed black;
-}
 
 /* SECTION 3 */
 .debug .section-3-background{
