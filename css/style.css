@@ -38,7 +38,7 @@ body{
 }
 
 .B-purple{
-    background-color: rgb(161, 178, 232);
+    background-color: #8EA1E1;
     color: white;
     margin: 0 0 0 20px;
 }
@@ -130,7 +130,6 @@ h1{
     height: 400px;
 }
 
-
 aside{
     min-width: 40%;
     min-height: 400px;
@@ -146,18 +145,44 @@ aside h2{
 aside p{
     max-width: 70%;
 }
-
 /* SECTION 2 END */
 
 /* SECTION 3 */
-.section-3{
-text-align: center;
-display: flex;
-flex-flow: column;
-justify-content: space-around;
-align-items: center;
-
+.section-3-background{
+    min-height: 1200px;
 }
+
+.section-3{
+    text-align: center;
+    flex-flow: column;
+}
+
+.section-3 h2{
+    font-size: 40px;
+    padding: 30px 0;
+}
+
+
+.section-3 h2, .section-3 p{
+    max-width: 70%;
+}
+
+.section-3 img{
+    min-width: 100%;
+}
+
+.special-h2-container{
+    min-width: 42%;
+    height: 100px;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.section-3 h3{
+    font-size: 26px;
+}
+
 
 /* FOOTER */
 .container-flex3{
@@ -186,16 +211,9 @@ hr{
 /* SECTION 2 */
 
 /* SECTION 3 */
-.debug .section-3-background{
-    min-height: 700px;
-    background-color: orange;
-}
 
 .debug .section-3{
-    background-color: purple;
-    min-width: 100%;
-    min-height: 640px;
-    border: 1px dashed black;
+
 }
 
 /* FOOTER nav*/
