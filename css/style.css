@@ -21,14 +21,41 @@ body{
     justify-content: center;
 }
 
+/* BUTTONS START */
+.small-button{
+    border-radius: 25px;
+    padding: 8px 12px;
+    border: none;
+    }
 
+.B-white{
+    background-color: white;
+}
+
+.B-purple{
+    background-color: rgb(161, 178, 232);
+    color: white;
+    margin: 0 0 0 20px;
+}
+.B-black{
+    background-color: black;
+    color: white;
+
+}
+.big-button{
+    border-radius: 25px;
+    padding: 14px 20px;
+    border: none;
+    margin: 0 20px;
+    font-size: 16px;
+}
+/* BUTTONS END */
 
 /* HEADER START */
-
 header{
     min-height: 60px;    
     padding: 20px;
-    background-color: rgba(49,97,224,255);
+    background-color: #255EE9;
 }
 
 header nav .logo,
@@ -47,14 +74,6 @@ header nav ul a{
     font-weight: bold;
 }
 
-.login-button{
-background-color: white;
-border-radius: 25px;
-padding: 8px 12px;
-border: none;
-
-}
-
 .logo.container-flex{
     justify-content: flex-start;
 }
@@ -70,14 +89,18 @@ ul.container-flex{
 
 /* MAIN START */
 /* SECTION 1 */
-.section-1-background{
-    background-color: blue;
+.jumbo{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 620px;
 }
 
 .section-1{
     text-align: center;
-    flex-direction: column;
-    align-items: center;
+    max-width: 50%;
+    min-height: 450px;
 }
 
 .section-1 > h1,
@@ -86,8 +109,8 @@ ul.container-flex{
     margin-bottom: 40px;
 }
 
-.section-1 > h1{
-    font-size: 60px;
+h1{
+    font-size: 50px;
 }
 
 /* SECTION 2 */
@@ -138,16 +161,8 @@ hr{
 
 /* MAIN START */
 /* SECTION 1 */
-.debug .section-1-background{
-    min-height: 400px;
-}
+.debug 
 
-.debug .section-1{
-    background-color: plum;
-    max-width: 40%;
-    min-height: 340px;
-    border: 1px dashed black;
-}
 
 /* SECTION 2 */
 .debug .section-2-background{
