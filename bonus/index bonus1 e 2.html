@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Struttura Discord BONUS 1 e 2</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- google fonts fira sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!-- fontawesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body">
+    <!-- HEADER -->
+    <header>
+        <!-- NAV LAYOUT WITH 3 FLEX ITEMS -->
+        <nav class="container container-flex">
+            <!-- ITEM 1 (LOGO) -->
+            <div class="logo container-flex">
+                <img src="img/logo.svg" alt="logo">
+            </div>
+            <!-- ITEM 2 (ANOTHER FLEX CONTAINER WITH 7 ITEMS) -->
+            <ul class="container-flex">
+                <li> <a href="#">Scarica</a></li>
+                <li> <a href="#">Perche Discord</a></li>
+                <li> <a href="#">Nitro</a></li>
+                <li> <a href="#">Sicurezza</a></li>
+                <li> <a href="#">Assistenza</a></li>
+            </ul>
+            <!-- ITEM 3 (LOGIN BUTTON) -->
+            <div class="login container-flex">
+                <button class="small-button B-white">Accedi</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN (SECTION 1, JUMBOTRON; SECTION 2,REPEATED TWICE AND MIRRORED INBETWEEN; SECTION 3) -->
+    <main>
+        <!-- JUMBOTRON SECTION WITH IMAGE BACKGROUND (CSS), H1, P, 2 BUTTON LINKS  -->
+        <div class="jumbo container-flex ">
+            <section class="container section-1">
+                <h1>Il tuo posto per parlare</h1>
+                <p class="container">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere in optio porro repudiandae consequuntur rem maxime totam deleniti quo? Minus nemo quia, ipsa iusto molestias dolores temporibus. Dolores tempore odit deleniti doloribus veritatis corporis vero quo reprehenderit modi incidunt, commodi iste maxime labore ea culpa, eos impedit amet sed? Cum culpa eaque blanditiis veniam laborum earum.</p>
+                <button class="big-button B-white">&#129063; Scarica per Mac</button>
+                <button class="big-button B-black">Apri Discord nel tup browser</button>
+            </section>
+        </div>
+        <!-- EVERYTHING FROM HERE ON IS CONTAINED IN THE .CONTAINER CLASS: MAX-WIDHT: 1200PX -->
+        <!-- SECTION 2 with IMAGE H2 and PARAGRAPH -->
+        <div class="section-2-background rela">
+            <div class="section-2-background container container-flex">
+                <img class="section-image" src="img/item1.svg" alt="">
+                <aside class="container-flex2">
+                    <h2>Un luogo a invito con tutto lo spazio necessario per parlare</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur facere obcaecati quasi expedita mollitia in dicta dolorum eveniet itaque blanditiis laboriosam illo, doloribus deserunt distinctio. Quasi doloribus aliquid magni ipsa.</p>
+                </aside>
+            </div>
+        </div>
+        <!-- changed order, text first and image second -->
+        <div class="section-2-background colored-background rela">
+            <div class="section-2-background container container-flex">
+                <img style="order: 1;" class="section-image" src="img/item2.svg" alt="">
+                <aside class="container-flex2">
+                    <h2>Dove trovarsi e facile</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur facere obcaecati quasi expedita mollitia in dicta dolorum eveniet itaque blanditiis laboriosam illo, doloribus deserunt distinctio. Quasi doloribus aliquid magni ipsa.</p>
+                </aside>
+            </div>
+        <!-- WAVE -->
+            <div class="wave1">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+                </svg>
+            </div>    
+        </div>
+        <!-- same as first one -->
+        <div class="section-2-background rela">
+            <div class="section-2-background container container-flex">
+                <img class="section-image" src="img/item3.svg" alt="">
+                <aside class="container-flex2">
+                    <h2>Da pochi a un fandom</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur facere obcaecati quasi expedita mollitia in dicta dolorum eveniet itaque blanditiis laboriosam illo, doloribus deserunt distinctio. Quasi doloribus aliquid magni ipsa.</p>
+                </aside>
+            </div>
+            <!-- WAVE -->
+            <div class="wave2">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+                </svg>
+            </div>
+            </div>    
+        </div>
+        <!-- SECTION 3, LARGER SECTION THAT CONTAINS H1, P, IMAGE, H2 AND 1 LINKED BUTTON -->
+        <div class="section-3-background colored-background rela">
+            <div class="container container-flex">
+                <section class="section-3 container-flex2">
+                    <H2>Tecnologia affidabile per tenersi in contatto</H2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem delectus dicta libero illum assumenda, magnam aspernatur, repellendus numquam atque iure, nemo deleniti debitis nobis nostrum odit adipisci. Laborum, doloribus et.</p>
+                    <img src="img/item4-big.svg" alt="image-placeholder">
+                    <div class="special-h2-container container-flex">
+                        <h3>Pronto a iniziare la tua avventura</h3>
+                    </div>    
+                    <button class="big-button B-purple">&#129063; Scarica per Mac</button>
+                </section>
+            </div>
+            <!-- WAVE -->
+            <div class="wave1">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+                </svg>
+            </div>    
+        </div>    
+    </main>
+
+    <!-- FOOTER, NAV AND BUTTONS SECTION -->
+    <footer class="footer-background">
+        <!-- FOOTER NAV LAYOUT WITH 5 ITEMS -->
+        <nav>
+            <div class="footer-div container container-flex">
+                <div class="footer-links1 container-flex3">
+                    <h3>Il tuo posto per <br> parlare</h3>
+                    <a class="language" href="#"> Italiano</a>
+                    <div>                  
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+                <div class="footer-links2 container-flex3">
+                    <h4>Prodotto</h4>
+                    <a href="#">Scarica</a>
+                    <a href="#">Perche Discord</a>
+                    <a href="#">Nitro</a>
+                    <a href="#">Sicurezza</a>
+                    <a href="#">Assistenza</a>
+                </div>
+                <div class="footer-links2 container-flex3">
+                    <h4>Compagnia</h4>
+                    <a href="#">Chi siamo</a>
+                    <a href="#">Lavora con noi</a>
+                    <a href="#">Marchio</a>
+                    <a href="#">Redazione</a>
+                    <a href="#">Negozio</a>
+                </div>
+                <div class="footer-links2 container-flex3">
+                    <h4>Risorse</h4>
+                    <a href="#">Scarica</a>
+                    <a href="#">Perche Discord</a>
+                    <a href="#">Nitro</a>
+                    <a href="#">Sicurezza</a>
+                    <a href="#">Assistenza</a>
+                    <a href="#">Scarica</a>
+                    <a href="#">Perche Discord</a>
+                    <a href="#">Nitro</a>
+                    <a href="#">Sicurezza</a>
+                    <a href="#">Assistenza</a>
+                </div>
+                <div class="footer-links2 container-flex3">
+                    <h4>Norme</h4>
+                    <a href="#">Chi siamo</a>
+                    <a href="#">Lavora con noi</a>
+                    <a href="#">Marchio</a>
+                    <a href="#">Redazione</a>
+                    <a href="#">Negozio</a>
+                </div>
+            </div>
+        </nav>
+        <!-- FOOTER BUTTONS SECTION. LOGO AND BUTTON -->
+        <section>
+            <div class="footer-background2 container">
+                    <div>
+                        <img src="img/logo.svg" alt="logo">
+                    </div>
+                    <div>
+                        <button class="small-button B-purple">Registrati</button>
+                    </div>
+            </div>
+        </section>
+    </footer>
+
+</body>
+</html>
+

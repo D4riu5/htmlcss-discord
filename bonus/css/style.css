@@ -1,0 +1,312 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.rela{
+    position: relative;
+}
+
+/* general rules START*/
+body{
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-flex2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.container-flex3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* BUTTONS START */
+.small-button{
+    border-radius: 25px;
+    padding: 8px 12px;
+    border: none;
+    }
+    
+.big-button{
+    border-radius: 25px;
+    padding: 14px 20px;
+    border: none;
+    margin: 0 20px;
+    font-size: 16px;
+}
+
+.B-white{
+    background-color: white;
+}
+
+.B-purple{
+    background-color: #8EA1E1;
+    color: white;
+    margin: 0 0 0 20px;
+}
+
+.B-black{
+    background-color: black;
+    color: white;
+}
+/* BUTTONS END */
+/* general rules END*/
+
+/* HEADER START */
+header{
+    min-height: 60px;    
+    padding: 20px;
+    background-color: #255EE9;
+}
+
+header nav .logo,
+header nav .login{
+    min-width: 20%;
+}
+
+ul{
+    width: 60%;
+    list-style-type: none;
+}
+
+.logo.container-flex{
+    justify-content: flex-start;
+}
+
+ul.container-flex{
+    justify-content: space-around;
+    padding: 0 150px;
+}
+
+.login.container-flex{
+    justify-content: flex-end;
+}
+/* HEADER END */
+
+/* MAIN START */
+/* WAVES COLORS START */
+.colored-background{
+    padding-top: 100px;
+    background-color: #C5C3C3;
+}
+
+.wave1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave1 svg {
+    position: relative;
+    display: block;
+    width: calc(111% + 1.3px);
+    height: 103px;
+}
+
+.wave1 .shape-fill {
+    fill: #ffffff;
+}
+
+.wave2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave2 svg {
+    position: relative;
+    display: block;
+    width: calc(111% + 1.3px);
+    height: 103px;
+}
+
+.wave2 .shape-fill {
+    fill: #C5C3C3;
+}
+/* WAVES COLORS END */
+
+
+/*  JUMBO START */
+.jumbo{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 600px; 
+}
+
+.section-1{
+    text-align: center;
+    max-width: 50%;
+    min-height: 450px;
+}
+
+.section-1 > h1,
+.section-1 > p{
+    color: white;
+    margin: 40px;
+}
+
+h1{
+    font-size: 50px;
+}
+/*  JUMBO END */
+
+/* SECTION 2 START*/
+.section-2-background{
+    min-height: 600px;
+}
+
+.section-image{
+    min-width: 60%;
+    height: 400px;
+}
+
+aside{
+    min-width: 40%;
+    min-height: 400px;
+    flex-direction: column;
+}
+
+aside h2{
+    max-width: 70%;
+    font-size: 40px;
+    padding: 30px 0;
+}
+
+aside p{
+    max-width: 70%;
+}
+/* SECTION 2 END */
+
+/* SECTION 3 */
+.section-3-background{
+    min-height: 1200px;
+}
+
+.section-3{
+    text-align: center;
+    flex-flow: column;
+}
+
+.section-3 h2{
+    font-size: 40px;
+    padding: 30px 0;
+}
+
+.section-3 h2, .section-3 p{
+    max-width: 70%;
+}
+
+.section-3 img{
+    min-width: 100%;
+}
+
+.special-h2-container{
+    min-width: 42%;
+    height: 100px;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.section-3 h3{
+    font-size: 26px;
+}
+/* SECTIION 3 END */
+/* MAIN END */
+
+/* FOOTER */
+footer{
+    background-color: #23272A;
+}
+
+.footer-div {
+    min-height: 540px;
+}
+
+.footer-links1{
+    min-width: 30%;
+    min-height: 420px;
+    border-bottom: 1px solid #7289DA;
+}
+
+.footer-links2{
+    width: 20%;
+    min-height: 420px;
+    border-bottom: 1px solid #7289DA;
+}
+
+footer h3{
+    font-size: 26px;
+    padding-bottom: 20px;
+    color: #7289DA;
+}
+
+/* LANGUAGE START */
+.language::before{
+    content: "";
+    background-image: url(../img/ita.png);
+    background-size: 20px 15px;
+    width: 20px;
+    height: 15px;
+    display: inline-block;
+}
+
+.language::after{
+    content: "\2228";
+    font-size: 12px;
+    vertical-align: top;
+}
+/* LANGUAGE END */
+
+/* FONTAWESOME ICONS */
+.fa-brands{
+    color: white;
+    padding: 10px 20px 0 0;
+}
+
+footer h4{
+    color: #7289DA;
+    padding-bottom: 10px;
+}
+
+.footer-background2{
+    min-height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+/* FOOTER END */
