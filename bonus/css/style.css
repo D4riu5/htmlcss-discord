@@ -45,13 +45,35 @@ a{
     margin-bottom: 10px;
 }
 
+a:not(.language):hover{
+    text-decoration: underline;
+}
+
+
 /* BUTTONS START */
 .small-button{
     border-radius: 25px;
     padding: 8px 12px;
     border: none;
     }
-    
+
+.specialB:hover{
+    color: purple;
+    cursor: pointer;
+}
+
+.specialB2:hover{
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: rgb(61, 57, 57);
+}
+
+.specialB3:hover{
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #adc0fd;
+}
+
 .big-button{
     border-radius: 25px;
     padding: 14px 20px;
@@ -92,6 +114,10 @@ header nav .login{
 ul{
     width: 60%;
     list-style-type: none;
+}
+
+.logo-cursor:hover{
+    cursor: pointer;
 }
 
 .logo.container-flex{
@@ -297,6 +323,9 @@ footer h3{
 .fa-brands{
     color: white;
     padding: 10px 20px 0 0;
+}
+i:hover{
+    cursor: pointer;
 }
 
 footer h4{
