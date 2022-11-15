@@ -1,0 +1,233 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* general rules */
+body{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* HEADER START */
+
+header{
+    min-height: 60px;    
+    padding: 20px;
+    background-color: rgba(49,97,224,255);
+}
+
+header nav .logo,
+header nav .login{
+    min-width: 20%;
+}
+
+ul{
+    width: 60%;
+    list-style-type: none;
+}
+
+header nav ul a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.login-button{
+background-color: white;
+border-radius: 25px;
+padding: 8px 12px;
+border: none;
+
+}
+
+.logo.container-flex{
+    justify-content: flex-start;
+}
+ul.container-flex{
+    justify-content: space-around;
+    padding: 0 150px;
+}
+
+.login.container-flex{
+    justify-content: flex-end;
+}
+/* HEADER END */
+
+/* MAIN START */
+/* SECTION 1 */
+.section-1-background{
+    background-color: blue;
+}
+
+.section-1{
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-1 > h1,
+.section-1 > p{
+    color: white;
+    margin-bottom: 40px;
+}
+
+.section-1 > h1{
+    font-size: 60px;
+}
+
+/* SECTION 2 */
+.container-flex2{
+    display: flex;
+    align-items: center;
+}
+
+/* SECTION 3 */
+.section-3{
+text-align: center;
+display: flex;
+flex-flow: column;
+justify-content: space-around;
+align-items: center;
+
+}
+
+/* FOOTER */
+.container-flex3{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.container-flex4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+hr{
+    color: white;
+}
+
+
+
+
+/* DEBUG */
+
+
+/* HEADER START */
+
+
+
+
+/* HEADER END */
+
+/* MAIN START */
+/* SECTION 1 */
+.debug .section-1-background{
+    min-height: 400px;
+}
+
+.debug .section-1{
+    background-color: plum;
+    max-width: 40%;
+    min-height: 340px;
+    border: 1px dashed black;
+}
+
+/* SECTION 2 */
+.debug .section-2-background{
+    min-height: 400px;
+    background-color: greenyellow;
+}
+
+.debug .section-2{
+    background-color: cyan;
+    min-width: 60%;
+    min-height: 340px;
+    border: 1px dashed black;
+}
+.debug aside{
+    background-color: lightpink;
+    min-width: 40%;
+    min-height: 340px;
+    border: 1px dashed black;
+}
+
+/* SECTION 2 FLIPPED */
+.debug .section-2-flipped-background{
+    min-height: 400px;
+    background-color: gray;
+}
+
+.debug .section-2-flipped{
+    background-color: cyan;
+    min-width: 40%;
+    min-height: 340px;
+    border: 1px dashed black;
+}
+.debug .section-2-flipped-background aside{
+    background-color: lightpink;
+    min-width: 60%;
+    min-height: 340px;
+    border: 1px dashed black;
+}
+
+/* SECTION 3 */
+.debug .section-3-background{
+    min-height: 700px;
+    background-color: orange;
+}
+
+.debug .section-3{
+    background-color: purple;
+    min-width: 100%;
+    min-height: 640px;
+    border: 1px dashed black;
+}
+
+/* FOOTER nav*/
+.debug .footer-background{
+    min-height: 400px;
+    background-color: lightcoral;
+}
+
+.debug .footer-links1{
+    background-color: red;
+    min-width: 30%;
+    min-height: 340px;
+    border: 1px dashed black;
+    flex-grow: 3;
+}
+
+.debug .footer-links2{
+    background-color: cyan;
+    width: 20%;
+    min-height: 340px;
+    border: 1px dashed black;
+}
+
+/* FOOTER SECTION2 */
+.debug .footer-background2{
+    min-height: 80px;
+    background-color: lightcoral;
+}
+.debug .footer-buttons{
+    min-height: 50px;
+    min-width: 100%;
+    background-color: lightseagreen;
+}
