@@ -71,7 +71,7 @@ a:not(.language):hover{
 .specialB3:hover{
     transition-duration: 0.4s;
     cursor: pointer;
-    background-color: #adc0fd;
+    background-color: #849ae4;
 }
 
 .big-button{
@@ -87,7 +87,7 @@ a:not(.language):hover{
 }
 
 .B-purple{
-    background-color: #8EA1E1;
+    background-color: #7284be;
     color: white;
     margin: 0 0 0 20px;
 }
